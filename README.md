@@ -12,7 +12,7 @@
 
 | id | t_date     | t_type | t_start | t_stop | MULTIPOLYGON   |
 |----|------------|--------|---------|--------|----------------|
-| 1  | 2010-01-08 | 1      | 哈尔滨  | 海口   | POLYGON ((lng, lat)) |
+| 0  | 2010-01-08 | 1      | 哈尔滨  | 海口   | POLYGON ((lng, lat)) |
 
 
 
@@ -20,10 +20,10 @@
 
 | id | country | province | city | geometry    |
 |----|---------|----------|------|--------------|
-| 1  | 中国    | 湖北     | 武汉 | POINT (lng lat) |
+| 0  | 中国    | 湖北     | 武汉 | POINT (lng lat) |
 
 - stats
 
 | id | t_date | country | province | city | confirmed | suspected | cured | dead |
 |----|--------|---------|----------|------|-----------|-----------|-------|------|
-|  1  |   2010-01-08      |     中国    |   湖北       |  num    |     num      |    num       |   num    |  num    |
+|  0  |   2010-01-08      |     中国    |   湖北       |  num    |     num      |    num       |   num    |  num    |

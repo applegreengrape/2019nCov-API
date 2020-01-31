@@ -27,6 +27,7 @@
 |    |         |          |      |              |   |
 
 - stats
+
 | id | t_date | country | province | city | confirmed | suspected | cured | dead |
 |----|--------|---------|----------|------|-----------|-----------|-------|------|
 |    |        |         |          |      |           |           |       |      |

@@ -10,17 +10,17 @@
 # Data Structures
 - h_travel_stats
 
-| id | t_date     | t_type | t_start | t_stop | path_POLYGON   |
+| id | t_date     | t_type | t_start | t_stop | MULTIPOLYGON   |
 |----|------------|--------|---------|--------|----------------|
-| 1  | 2010-01-08 | 1      | 哈尔滨  | 海口   | [（lat,lng）, (lat, lng)] |
+| 1  | 2010-01-08 | 1      | 哈尔滨  | 海口   | POLYGON ((lng, lat)) |
 
 
 
 - geo_points
 
-| id | country | province | city | geo_point    |   |
-|----|---------|----------|------|--------------|---|
-| 1  | 中国    | 湖北     | 武汉 | （lat，lng） |   |
+| id | country | province | city | geometry    |
+|----|---------|----------|------|--------------|
+| 1  | 中国    | 湖北     | 武汉 | POINT (lng lat) |
 
 - stats
 

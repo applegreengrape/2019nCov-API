@@ -10,20 +10,23 @@
 # Data Structures
 - h_travel_stats
 
-| id | t_date     | t_type | t_start | t_stop | MULTIPOLYGON   |
-|----|------------|--------|---------|--------|----------------|
-| 0  | 2010-01-08 | 1      | 哈尔滨  | 海口   | POLYGON ((lng, lat)) |
+| id | t_date | t_type | o_type | t_start | t_stop |
+|----|--------|--------|--------|---------|--------|
+|    |        |        |        |         |        |
+|    |        |        |        |         |        |
+|    |        |        |        |         |        |
 
 
 
 - geo_points
-
-| id | country | province | city | geometry    |
-|----|---------|----------|------|--------------|
-| 0  | 中国    | 湖北     | 武汉 | POINT (lng lat) |
+| id | country | province | city | geometrics |
+|----|---------|----------|------|------------|
+|    |         |          |      |            |
+|    |         |          |      |            |
+|    |         |          |      |            |
 
 - stats
-
-| id | t_date | country | province | city | confirmed | suspected | cured | dead |
-|----|--------|---------|----------|------|-----------|-----------|-------|------|
-|  0  |   2010-01-08      |     中国    |   湖北       |  num    |     num      |    num       |   num    |  num    |
+| id | country | provinceName | cityName | province_confirmedCount | province_suspectedCount | province_curedCount | province_deadCount | city_confirmedCount | city_suspectedCount | city_curedCount | city_deadCount | updateTime              |
+|----|---------|--------------|----------|-------------------------|-------------------------|---------------------|--------------------|---------------------|---------------------|-----------------|----------------|-------------------------|
+| 0  | 中国    | 山东省       | 青岛     | 259                     | 0                       | 7                   | 0                  | 26                  | 0                   | 1               | 0              | 2020-02-03 22:33:28.253 |
+| 1  | 中国    | 山东省       | 烟台     | 259                     | 0                       | 7                   | 0                  | 26                  | 0                   | 0               | 0              | 2020-02-03 22:33:28.253 |

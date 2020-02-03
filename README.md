@@ -26,6 +26,7 @@
 |    |         |          |      |            |
 
 - stats
+
 | id | country | provinceName | cityName | province_confirmedCount | province_suspectedCount | province_curedCount | province_deadCount | city_confirmedCount | city_suspectedCount | city_curedCount | city_deadCount | updateTime              |
 |----|---------|--------------|----------|-------------------------|-------------------------|---------------------|--------------------|---------------------|---------------------|-----------------|----------------|-------------------------|
 | 0  | 中国    | 山东省       | 青岛     | 259                     | 0                       | 7                   | 0                  | 26                  | 0                   | 1               | 0              | 2020-02-03 22:33:28.253 |

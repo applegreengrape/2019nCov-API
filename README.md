@@ -9,10 +9,11 @@
 
 # AWS Setup 
 ![aws-serverless-setup](img/serverless-backend-api-diagram.png)
-
+DXY 网页爬虫数据和同城查询工具的数据每天3：30am 会录入AWS dynamodb tables.
 
 #### The API Endpoint [爬虫数据接口]: `https://4mmhkv7z9e.execute-api.eu-west-1.amazonaws.com/v1/`
 
+#### DXY 网页爬虫数据｜实时疫情数据
 #### `path`: `/dxy` 
 
 You can use this path to retrieve the stats of coronavirus including `id`, `date`, `country`, `provinceName`, `cityName`, `confirmedCount`, `suspectedCount`, `curedCount`, `deadCount`. Please be aware this ETL lambda function is scheduled from 2020-02-08. The latest data you can retrieve is from 2020-02-08. 
@@ -82,7 +83,7 @@ $ curl -s https://4mmhkv7z9e.execute-api.eu-west-1.amazonaws.com/v1/dxy?all=yes 
 }
 
 ```
-
+#### 同城查询工具的数据
 #### `path`: `/travel`
 
 This path is to retrieve the confirmed cases' travel paths including `id`, `date`, `start`, `stop`, `t_type`, `t_no`, `t_no_sub`. 

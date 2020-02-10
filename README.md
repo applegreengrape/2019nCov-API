@@ -1,5 +1,5 @@
 # 2019nCov-API [新冠疫情爬虫数据接口]
-2019nCov-API 
+2019nCov-API - https://applegreengrape.github.io/posts/2019ncov-api/
 
 # Data Sources [数据来源]
 - real-time data: https://ncov.dxy.cn/ncovh5/view/pneumonia
